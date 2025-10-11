@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/*.zip
+data/*.npy
+data/train/
+data/test/
+
+# Model weights
+models/*.h5
+models/*.pkl
+
+# VS Code
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
