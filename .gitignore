@@ -1,29 +1,47 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
-.env/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
 
-# Jupyter
-.ipynb_checkpoints/
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
 
-# Data files
-data/*.zip
-data/*.npy
-data/train/
-data/test/
+# React
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 
-# Model weights
-models/*.h5
-models/*.pkl
+# Data and Models
+data/
+models/
+*.h5
+*.npy
 
-# VS Code
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# System
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
